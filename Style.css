@@ -1,0 +1,46 @@
+body {
+  font-family: Arial, sans-serif;
+  font-size: 8px;
+  background-color: #0f0fe5;
+  margin: 200px;
+  border-radius: 10px;
+}
+
+h1 {
+  font-size: 24px;
+  font-weight: bold;
+  color: #333;
+  text-align: center;
+}
+
+label {
+  font-size: 16px;
+  font-weight: bold;
+  display: block;
+  margin-bottom: 5px;
+}
+
+input[type="text"],
+select {
+  width: 80px;
+  height: 20px;
+  border: 2px solid #ccc;
+  padding: 4px;
+  font-size: 8px;
+}
+
+.calcular {
+  background-color: #09c80fe7; /* Green */
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+#tela,
+#historico {
+  background-color: #eee;
+  padding: 20px;
+  font-size: 16px;
+}
